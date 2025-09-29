@@ -9,7 +9,7 @@ void setup() {
 void loop() {
   int16_t ax, ay, az;
   mpu.getAcceleration(&ax, &ay, &az);
-  // Send values as comma-separated
+
   Serial.print(ax);
   Serial.print(", ");
   Serial.print(ay);
