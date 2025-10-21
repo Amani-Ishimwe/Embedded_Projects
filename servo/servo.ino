@@ -14,6 +14,7 @@ void setup(){
   MyServo.attach(6);
 }
 
+
 void loop(){
   int x_val = analogRead(x_pin);
   int y_val = analogRead(y_pin);
