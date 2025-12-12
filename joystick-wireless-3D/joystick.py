@@ -1,3 +1,4 @@
+import utils.session
 import serial, serial.tools.list_ports
 import time, math, pygame
 from pygame.locals import *
